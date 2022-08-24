@@ -351,25 +351,25 @@ footer a:hover
 /*mobile with small screen*/
 @media (max-width : 767px){
     nav{
-        padding: 3px 0px;
+        padding: 10px 0px;
     }
     nav .soccial {
     padding: 0px 8px;
-    font-size: 10px;
+    font-size: 15px;
     }
     header div  {
         top: 35%;
     }
     header div h3 {
-        font-size: 10px;
+        font-size: 15px;
     }
     header div h1 {
-        font-size:20px;
+        font-size:25px;
         padding: 2px 0px;
     }
     header div button {
-        padding: 3px 5px;
-        font-size: 5px;    
+        padding: 5px 8px;
+        font-size: 8px;    
     }
     section{
         margin: 20px 0px;
