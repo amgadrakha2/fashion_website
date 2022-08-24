@@ -1,0 +1,560 @@
+@font-face
+{
+    font-family: oswald;
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+}
+@font-face
+{
+    font-family: 'open sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.cl
+{
+    clear: both;
+    content: " ";
+}
+/*start of navbar*/
+nav
+{
+    background-color: black;
+    padding: 10px 0px;
+}
+nav .soccial
+{
+    color: white;
+    padding:10px 15px;
+}
+
+nav .soccial:hover
+{
+    background-color:#e1e1e2;
+    color: black;
+    
+}
+
+/*enf of navbar*/
+
+/*start of section*/
+section
+{
+    text-align: center;
+    font-family: oswald;
+    margin: 40px 0px;
+}
+section h1
+{
+    font-size: 48px;
+}
+section p
+{
+    margin:15px
+}
+section p span
+{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    margin-left: 5px;
+}
+/*end of section*/
+
+/*strt of header*/
+header
+{
+    position: relative;
+}
+header img
+{
+    width: 100%;
+}
+header div
+{
+    position: absolute;
+    top: 50%;
+    padding-left: 25px;
+    color: white;
+    font-family: oswald;
+}
+header div h1
+{   
+    font-size: 64px;
+    padding: 15px 0px;
+}
+header div h3
+{
+    font-size: 36px;
+}
+
+header div button
+{
+   
+    background-color: rgba(157,157,157,0.6);
+    padding: 12px 24px;
+    font-family: oswald;
+    font-weight: 400;
+    font-size:17px;
+}
+header div button:hover
+{
+    background-color: rgba(157,157,157,0.9);
+}
+/*start of main*/
+main
+{   background-color: #f1f1f1;
+    height: auto;
+    overflow: auto;
+}
+/*start of left side*/
+main .left
+{
+    width: 65%;
+    display: inline-block;
+    float: left;
+    background-color: #f1f1f1;
+    padding: 20px;
+ }
+ /*start of articale*/
+article
+{
+    background-color: white;
+   
+    font-family: oswald;
+    padding: 20px;
+}
+main .left article h2
+{
+    font-size: 24px;
+    text-align: center;
+}
+main .left article p
+{
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
+main .left article p span
+{
+    color: gray;
+}
+main .left article .para
+{
+    text-align: left;
+    text-align: justify;
+    font-family: 'open sans';
+    font-size: 15px;
+}
+main .left article .para span
+{
+    font-weight: bold;
+    color: black;
+}
+main .left article .butts
+{
+}
+main .left article .butts .like
+{
+    background-color: white;
+    padding: 10PX 15PX;
+    border: 1px solid #e1e1e2;
+
+}
+
+main .left article .butts .replies
+{
+    float: right;
+    background-color: black;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+    font-family: oswald;
+}
+main .left article .butts .replies span
+{ 
+    background-color: white;
+    color: black;
+    padding: 2px 10px;
+   
+
+}
+main .left article .butts .replies:hover
+{
+    background-color:#f1f1f1 ;
+    color: black;
+    border-style: none;
+}
+main .left article .butts .like:hover
+{
+    background-color:#f1f1f1;
+    border-style: none;
+}
+/*start of right side*/
+main .right
+{
+    width: 35%;
+    display: inline-block;
+    float: right; 
+    background-color:  #f1f1f1;
+    padding: 20px; 
+}
+/*start of artical right side*/
+main .right .artrs
+{
+    width: 100%;
+
+}
+main .right .artrs div
+{
+    background-color: black;
+    color: white;  
+    padding: 10px 15px;
+    margin-top: -5px;
+
+}
+main .right .artrs div h2
+{
+    font-family: oswald;
+    font-size: 20px;
+    font-weight: 400;
+}
+main .right .artrs div p
+{
+    font-family: 'open sans';
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+/*start of popular post*/
+main .right .tittle
+{
+    margin-top: 35px;
+}
+main .right .tittle .divh
+{
+    background-color: black;
+    padding: 20px 15px;
+    color:white;
+    font-family: oswald;
+    font-size: 20px;
+}
+main .right .tittle .divbody
+{
+    background-color: white;
+    padding: 15px;
+    margin-top: 2px;
+}
+main .right .tittle .divbody div
+{
+    float: right;
+    width: 80%;
+    padding:10px;
+    font-family: 'open sans';
+    height: auto;
+    overflow: auto;
+}
+main .right .tittle .db:hover
+{
+    background-color: grey;
+}
+main .right .tittle .divbody .p_ad
+{   text-align: center;
+    background-color: #f1f1f1;
+    padding:80px ;
+}
+main .right .tittle .tag
+{
+    padding: 20px;
+}
+main .right .tittle .tag span
+{
+    display: inline-block;
+    margin: 10px 3px;
+    background-color: #f1f1f1;
+    padding: 3px,6px;
+    font-family: 'open sans';
+}
+main .right .tittle .gallary 
+{
+    padding: 10px;
+}
+main .right .tittle .gallary img
+{
+    display: inline-block;
+    width: 49%;
+    padding: 5px;
+}
+main .right .tittle .social
+{
+    padding: 15px;
+}
+main .right .tittle .social a
+{
+    font-size: 24px;
+    color: black;
+    padding: 0px 2px;
+}
+main .right .tittle .sub
+{
+    padding: 15px;
+}
+main .right .tittle .sub #texbox
+{
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #ccc;
+    margin: 10px 0px;
+}
+main .right .tittle .sub button
+{
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #f44336;
+    background-color: #f44336;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 400;
+}
+main .right .tittle .sub button:hover{
+ background-color: #e1e1e2;
+ color: black;
+ border: 1px solid #e1e1e2;
+}
+/*start of footer*/
+footer{
+    background-color: gray;
+    padding: 30px;
+}
+footer a
+{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+footer a:hover
+{
+    background-color: #f1f1f1 ;
+    color: black;
+    padding: 10px 15px;
+    border: 1px solid #f1f1f1;
+}
+/*media query*/
+
+/*mobile with small screen*/
+@media (max-width : 767px){
+    nav{
+        padding: 3px 0px;
+    }
+    nav .soccial {
+    padding: 0px 8px;
+    font-size: 10px;
+    }
+    header div  {
+        top: 35%;
+    }
+    header div h3 {
+        font-size: 10px;
+    }
+    header div h1 {
+        font-size:20px;
+        padding: 2px 0px;
+    }
+    header div button {
+        padding: 3px 5px;
+        font-size: 5px;    
+    }
+    section{
+        margin: 20px 0px;
+    }
+    
+    section h1 {
+        font-size: 20px;
+
+    }
+    section p {
+        font-size: 10px;
+
+    }
+    main{
+        float: none;
+    }
+    main .left
+    {
+        width: 100%;
+    }
+    main .left article h2
+    {
+        font-size: 15px;
+    }
+    main .left article p {
+        font-size: 10px;
+        padding: 15px 0px;
+    }
+    main .left article .para {
+     font-size: 10px;
+     padding: 5px 0px;   
+
+    }
+    main .left article .butts .replies
+    {
+        font-size: 10px;
+        padding: 3px 2px;
+    }
+    main .left article .butts .like
+    {
+        font-size: 10px;
+        padding: 3px 2px;
+    }
+    main .left article .butts .replies span {
+        background-color: white;
+        color: black;
+        padding: 3px 5px;
+    }
+    main .right
+    {
+        width: 100%;
+    }
+    main .right .tittle .divh {
+        padding: 15px;
+        font-size: 15px;
+    }
+    main .right .tittle .db{
+        padding: 10px;
+    }
+    main .right .tittle img{
+        width: 40px;
+    }
+    main .right .tittle .db div{
+        
+         padding: 5px;
+        font-size: 10px;
+    }
+    main .right .tittle .divbody .p_ad {
+        padding: 40px;
+        font-size: 15px;
+    }
+    main .right .tittle .tag span {
+        font-size: 10px;
+        margin: 5px 5px;
+    }
+    main .right .tittle .tag {
+        padding: 10px;
+    }
+    main .right .tittle .social  {
+        padding: 10px;
+    }
+    main .right .tittle .social a 
+    {
+        font-size: 17px;
+    }
+}
+@media (max-width : 276px){
+    main .right .tittle .divbody div {
+        width: 63%;
+    }
+}
+
+/*med screen*/
+@media (min-width:768px) and (max-width:991px)
+{
+    nav{
+        padding: 10px 0px;
+    }
+    nav .soccial {
+    padding: 0px 10px;
+    font-size: 14px;
+    }
+     section{
+        margin: 20px 0px;
+    }
+    
+    section h1 {
+        font-size: 25px;
+    } 
+    header div h1 {
+        font-size: 40px;
+        padding: 10px 0px;
+}
+header div h3 {
+    font-size: 20px;
+}
+main .left
+{
+    width: 50%;
+}
+main .left article h2
+{
+    font-size: 15px;
+}
+main .left article p {
+    font-size: 10px;
+    padding: 15px 0px;
+}
+main .left article .para {
+ font-size: 10px;
+ padding: 5px 0px;   
+
+}
+main .left article .butts .replies
+{
+    font-size: 10px;
+    padding: 3px 2px;
+}
+main .left article .butts .like
+{
+    font-size: 10px;
+    padding: 3px 2px;
+}
+main .left article .butts .replies span {
+    background-color: white;
+    color: black;
+    padding: 3px 5px;
+}
+main .right
+{
+    width: 50%;
+}
+main .right .tittle .divh {
+    padding: 15px;
+    font-size: 15px;
+}
+main .right .tittle .db{
+    padding: 10px;
+}
+main .right .tittle img{
+    width: 40px;
+}
+main .right .tittle .db div{
+    width: 85%;
+     padding: 5px;
+    font-size: 10px;
+}
+main .right .tittle .divbody .p_ad {
+    padding: 40px;
+    font-size: 15px;
+}
+main .right .tittle .tag span {
+    font-size: 10px;
+    margin: 5px 5px;
+}
+main .right .tittle .tag {
+    padding: 10px;
+}
+main .right .tittle .social  {
+    padding: 10px;
+}
+main .right .tittle .social a 
+{
+    font-size: 17px;
+}   
+  
+}
+
