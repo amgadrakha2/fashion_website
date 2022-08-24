@@ -406,12 +406,12 @@ footer a:hover
     main .left article .butts .replies
     {
         font-size: 10px;
-        padding: 3px 2px;
+        padding: 5px 10px;
     }
     main .left article .butts .like
     {
         font-size: 10px;
-        padding: 3px 2px;
+        padding: 5px 10px;
     }
     main .left article .butts .replies span {
         background-color: white;
@@ -506,12 +506,12 @@ main .left article .para {
 main .left article .butts .replies
 {
     font-size: 10px;
-    padding: 3px 2px;
+    padding: 5px 10px;
 }
 main .left article .butts .like
 {
     font-size: 10px;
-    padding: 3px 2px;
+    padding: 5px 10px;
 }
 main .left article .butts .replies span {
     background-color: white;
