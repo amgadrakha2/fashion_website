@@ -196,14 +196,12 @@ main .left article .butts .like:hover
     border-style: none;
 }
 .rep{
-    margin-top: 15px;
-    padding: 30px;
+    display: flex !important;
+    align-items: center;
     border-top: 1px solid gray;
+    padding: 5px;
 }
-.rep div {
-    margin-top: -15%;
-    padding-right: 8%;
-}
+
 .rep div .pp{
     font-size: 15px;
     padding: 5px;
@@ -509,10 +507,6 @@ footer a:hover
     .rep
     {
         padding: 5px;
-    }
-    .rep div {
-        margin-top: -21%;
-        padding-left: 3%;
     }
     .rep div .pp{
         font-size: 8px;
